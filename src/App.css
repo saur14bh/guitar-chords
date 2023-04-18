@@ -1,38 +1,396 @@
-.App {
-  text-align: center;
+.center {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  width: 100vw !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.android-large1 {
+  width: 100%;
+  height: 800px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 1);
 }
-
-.App-link {
-  color: #61dafb;
+.sectionfootercontact {
+  top: 0px;
+  left: -169px;
+  width: 866px;
+  height: 800px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-size: cover;
+  /* background-image: url("/playground_assets/bc2a932b-79b0-4708-8687-34c0b2021f9d-8f1-900w.undefined"); */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.div {
+  top: 127px;
+  left: 68px;
+  width: 91px;
+  height: 1047px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 32px;
+}
+.div1 {
+  top: 184px;
+  left: 164px;
+  width: 237px;
+  height: 509.390625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.div2 {
+  top: 893.390625px;
+  left: -410px;
+  width: 912px;
+  height: 92.390625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.text {
+  top: 25.1875px;
+  left: 296.40625px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Brands;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text01 {
+  top: 25.1875px;
+  left: 391.421875px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 37px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Brands;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text02 {
+  top: 25.1875px;
+  left: 478.5625px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 47px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Brands;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text03 {
+  top: 25.1875px;
+  left: 573.578125px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 42px;
+  height: auto;
+  position: absolute;
+  font-size: 42px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Font Awesome 5 Brands;
+  font-weight: 400;
+  line-height: 42px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.span {
+  top: 1006.78125px;
+  left: -153.296875px;
+  width: 399px;
+  display: flex;
+  padding: 3px 0;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.text04 {
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text05 {
+  color: rgba(255, 255, 255, 0.8999999761581421);
+}
+.text06 {
+  color: rgba(236, 224, 182, 1);
+}
+.text07 {
+  color: rgba(255, 255, 255, 0.8999999761581421);
+}
+.text08 {
+  color: rgba(236, 224, 182, 1);
+}
+.text09 {
+  color: rgba(255, 255, 255, 0.8999999761581421);
+}
+.div3 {
+  top: 297px;
+  left: 373px;
+  width: 613px;
+  height: 510.390625px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.div4 {
+  top: 89.796875px;
+  left: 0px;
+  width: 613px;
+  height: 71.796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.div5 {
+  top: 182.59375px;
+  left: 0px;
+  width: 613px;
+  height: 146.796875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.div6 {
+  top: 300px;
+  left: 154px;
+  width: 309px;
+  height: 78px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.div7 {
+  top: 60px;
+  left: -284px;
+  width: 278px;
+  height: 9px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.rectangle2 {
+  top: 542px;
+  left: 287px;
+  width: 137px;
+  height: 48px;
+  position: absolute;
+  border-color: transparent;
+  border-radius: 100px;
+}
+.h1 {
+  top: 80px;
+  left: 158px;
+  width: 912px;
+  height: 56px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.text11 {
+  top: 105px;
+  left: 220px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 271px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 34px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.imageremovebgpreview1 {
+  top: 6px;
+  left: 351px;
+  width: 140px;
+  height: 126px;
+  position: absolute;
+  border-color: transparent;
+}
+.text13 {
+  top: 69px;
+  left: 257px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 34px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 56px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text15 {
+  top: 300px;
+  left: 232px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 126px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.inputformfieldemail {
+  top: 437px;
+  left: 220px;
+  width: 271px;
+  height: 43px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 100px;
+  background-color: rgba(45, 64, 88, 1);
+}
+.text17 {
+  top: 408px;
+  left: 232px;
+  color: rgba(255, 255, 255, 0.8999999761581421);
+  width: 96px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.text19 {
+  top: 480px;
+  left: 232px;
+  color: rgba(247, 92, 92, 0.8999999761581421);
+  width: 164px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Nunito Sans;
+  font-weight: 400;
+  line-height: 28.799999237060547px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.imageremovebgpreview11 {
+  top: 590px;
+  left: 217px;
+  width: 57px;
+  height: 48px;
+  position: absolute;
+  border-color: transparent;
+}
+.inputformfieldemail1 {
+  top: 330px;
+  left: 51px;
+  width: 271px;
+  height: 43px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 100px;
+  background-color: rgba(45, 64, 88, 1);
 }
