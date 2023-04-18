@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 
 import InputControl from "../InputControl/InputControl";
@@ -13,7 +13,7 @@ import swal from "sweetalert";
 
 
 function Login() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   const [values, setValues] = useState({
     email: "",
     pass: "",
@@ -33,7 +33,7 @@ function Login() {
       .then(async (res) => {
         setSubmitButtonDisabled(false);
 
-        navigate("/");
+        // navigate("/");
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);

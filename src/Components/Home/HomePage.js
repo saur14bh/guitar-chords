@@ -29,29 +29,44 @@
 
 // export default HomePage;
 
+// import React from "react";
+
+// import heroImage from './../Home/strinx1.png';
+
+// import styles from "./HomePage.css";
+
+// function Home() {
+//   return (
+//       <div className={styles.container}>
+//         <div className="bgImage">
+//         </div>
+    
+//           <img className="image" src={heroImage} alt="home" />
+
+//       <h1>Welcome to Guitar Chord Recognition </h1>
+    
+//   </div>
+//   );
+// }
+
+// export default Home;
+
 import React from "react";
-import { Link } from "react-router-dom";
+import heroImage from './../Home/strinX.png';
+import styles from "./HomePage.css";
 
-function Home(props) {
+function Home() {
   return (
-    <div>
-      <div>
-        <h1>
-          <Link to="/login">Login</Link>
-        </h1>
-        <br />
-        <h1>
-          <Link to="/signup">Signup</Link>
-        </h1>
+    <div className={styles.container}>
+      <div className="bgImage">
+      <div className={styles.innerBox}>
+        <img className={styles.image} src={heroImage} alt="home" />
+        <h1 style={{ color: 'white'}}>Welcome to Guitar Chord Recognition </h1>
       </div>
-
-      <br />
-      <br />
-      <br />
-
-      <h2>{props.name ? `Welcome - ${props.name}` : "Login please"}</h2>
+    </div>
     </div>
   );
 }
 
 export default Home;
+

@@ -37,7 +37,7 @@ function Signup() {
         await updateProfile(user, {
           displayName: values.name,
         });
-        navigate("/");
+        navigate("/Login");
       })
       .catch((err) => {
         setSubmitButtonDisabled(false);
